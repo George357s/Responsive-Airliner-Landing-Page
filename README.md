@@ -22,7 +22,8 @@ customization
 - How to create a full landing page design & 
 general web design concepts  
 
-Dependencies used in this project: 
+Dependencies used in this project:
+
 Font Awesome Icons:
 https://fontawesome.com
 
