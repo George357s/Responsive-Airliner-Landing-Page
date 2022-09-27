@@ -4,7 +4,7 @@
    --alt-color: #f1f1f1;
 
    --secondary-text-color: #a3a3a3;
-   --secondary-text-light: #e3e3e3;
+   --secondary-text-light: #cdc8c8;
    
    --secondary-color-dark: #081a29;
 
@@ -256,6 +256,10 @@ header p {
    color: var(--alt-color);
 }
 
+.card-text p {
+   margin-bottom: 2em;
+}
+
 .swiper {
    width: 100%;
    height: 100%;
@@ -285,7 +289,7 @@ header p {
    left: 50%;
    transform: translateX(-50%);
    color: var(--secondary-text-light);
-   font-size: 17em;
+   font-size: 20em;
    z-index: 0;
 }
 
@@ -424,7 +428,7 @@ footer .main-link a:hover {
    }
 }
 
-@media screen and (min-width: 1000px) {
+@media screen and (max-width: 1000px) {
    nav {
       background: #fff;
    }
@@ -470,6 +474,7 @@ footer .main-link a:hover {
    .card-text {
       width: 100%;
       position: static;
+      transform: none;
    }
 }
 
