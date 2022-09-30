@@ -24,7 +24,6 @@ general web design concepts
 
 Dependencies used in this project:
 
-
 Font Awesome Icons:
 https://fontawesome.com
 
